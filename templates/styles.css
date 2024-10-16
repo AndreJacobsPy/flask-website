@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 30px 20px;
+    margin-top: 30px; /* Adjust for fixed navbar */
+}
+
+.row {
+    padding-top: 50px;
+}
+
+#first-paragraph {
+    padding-top: 80px;
+    padding-left: 20px;
+}
+
+#navbarTitle {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-brand h2 {
+    margin: 0;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.list-group-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.list-group-item a:hover {
+    text-decoration: underline;
+}
+
+.form-row {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.description {
+    padding-left: 20px;
+    padding-right: 20px;
+}
